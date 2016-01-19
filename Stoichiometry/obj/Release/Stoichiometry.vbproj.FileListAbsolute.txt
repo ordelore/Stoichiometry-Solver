@@ -1,0 +1,9 @@
+C:\Users\Lorenzo\Documents\Visual Studio 2013\Projects\Stoichiometry\Stoichiometry\bin\Release\Stoichiometry.exe
+C:\Users\Lorenzo\Documents\Visual Studio 2013\Projects\Stoichiometry\Stoichiometry\bin\Release\Stoichiometry.pdb
+C:\Users\Lorenzo\Documents\Visual Studio 2013\Projects\Stoichiometry\Stoichiometry\bin\Release\Stoichiometry.xml
+C:\Users\Lorenzo\Documents\Visual Studio 2013\Projects\Stoichiometry\Stoichiometry\obj\Release\Stoichiometry.Main.resources
+C:\Users\Lorenzo\Documents\Visual Studio 2013\Projects\Stoichiometry\Stoichiometry\obj\Release\Stoichiometry.Resources.resources
+C:\Users\Lorenzo\Documents\Visual Studio 2013\Projects\Stoichiometry\Stoichiometry\obj\Release\Stoichiometry.vbproj.GenerateResource.Cache
+C:\Users\Lorenzo\Documents\Visual Studio 2013\Projects\Stoichiometry\Stoichiometry\obj\Release\Stoichiometry.exe
+C:\Users\Lorenzo\Documents\Visual Studio 2013\Projects\Stoichiometry\Stoichiometry\obj\Release\Stoichiometry.xml
+C:\Users\Lorenzo\Documents\Visual Studio 2013\Projects\Stoichiometry\Stoichiometry\obj\Release\Stoichiometry.pdb
