@@ -49,44 +49,50 @@ Partial Class Main
         Me.grpAdd.Controls.Add(Me.txtEquation)
         Me.grpAdd.Controls.Add(Me.Label2)
         Me.grpAdd.Controls.Add(Me.Label1)
-        Me.grpAdd.Location = New System.Drawing.Point(13, 13)
+        Me.grpAdd.Location = New System.Drawing.Point(10, 11)
+        Me.grpAdd.Margin = New System.Windows.Forms.Padding(2)
         Me.grpAdd.Name = "grpAdd"
-        Me.grpAdd.Size = New System.Drawing.Size(351, 120)
+        Me.grpAdd.Padding = New System.Windows.Forms.Padding(2)
+        Me.grpAdd.Size = New System.Drawing.Size(263, 98)
         Me.grpAdd.TabIndex = 0
         Me.grpAdd.TabStop = False
         Me.grpAdd.Text = "Equation"
         '
         'btnEquOK
         '
-        Me.btnEquOK.Location = New System.Drawing.Point(138, 88)
+        Me.btnEquOK.Location = New System.Drawing.Point(104, 72)
+        Me.btnEquOK.Margin = New System.Windows.Forms.Padding(2)
         Me.btnEquOK.Name = "btnEquOK"
-        Me.btnEquOK.Size = New System.Drawing.Size(75, 23)
+        Me.btnEquOK.Size = New System.Drawing.Size(56, 19)
         Me.btnEquOK.TabIndex = 3
         Me.btnEquOK.Text = "OK"
         Me.btnEquOK.UseVisualStyleBackColor = True
         '
         'txtEquation
         '
-        Me.txtEquation.Location = New System.Drawing.Point(54, 60)
+        Me.txtEquation.Location = New System.Drawing.Point(40, 49)
+        Me.txtEquation.Margin = New System.Windows.Forms.Padding(2)
         Me.txtEquation.Name = "txtEquation"
-        Me.txtEquation.Size = New System.Drawing.Size(242, 22)
+        Me.txtEquation.Size = New System.Drawing.Size(182, 20)
         Me.txtEquation.TabIndex = 2
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(90, 39)
+        Me.Label2.Location = New System.Drawing.Point(68, 32)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(171, 17)
+        Me.Label2.Size = New System.Drawing.Size(129, 13)
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "[2] Means a subscript of 2"
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(72, 22)
+        Me.Label1.Location = New System.Drawing.Point(54, 18)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(207, 17)
+        Me.Label1.Size = New System.Drawing.Size(157, 13)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Example: 2H[2] + O[2] = 2H[2]O"
         '
@@ -101,9 +107,11 @@ Partial Class Main
         Me.grpConversion.Controls.Add(Me.cmbMolB)
         Me.grpConversion.Controls.Add(Me.cmbMolA)
         Me.grpConversion.Controls.Add(Me.Label3)
-        Me.grpConversion.Location = New System.Drawing.Point(13, 140)
+        Me.grpConversion.Location = New System.Drawing.Point(10, 114)
+        Me.grpConversion.Margin = New System.Windows.Forms.Padding(2)
         Me.grpConversion.Name = "grpConversion"
-        Me.grpConversion.Size = New System.Drawing.Size(357, 139)
+        Me.grpConversion.Padding = New System.Windows.Forms.Padding(2)
+        Me.grpConversion.Size = New System.Drawing.Size(268, 113)
         Me.grpConversion.TabIndex = 1
         Me.grpConversion.TabStop = False
         Me.grpConversion.Text = "Molecules"
@@ -111,9 +119,10 @@ Partial Class Main
         '
         'btnConvertOK
         '
-        Me.btnConvertOK.Location = New System.Drawing.Point(141, 109)
+        Me.btnConvertOK.Location = New System.Drawing.Point(106, 89)
+        Me.btnConvertOK.Margin = New System.Windows.Forms.Padding(2)
         Me.btnConvertOK.Name = "btnConvertOK"
-        Me.btnConvertOK.Size = New System.Drawing.Size(75, 23)
+        Me.btnConvertOK.Size = New System.Drawing.Size(56, 19)
         Me.btnConvertOK.TabIndex = 8
         Me.btnConvertOK.Text = "OK"
         Me.btnConvertOK.UseVisualStyleBackColor = True
@@ -122,68 +131,76 @@ Partial Class Main
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(138, 87)
+        Me.Label5.Location = New System.Drawing.Point(104, 71)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(81, 17)
+        Me.Label5.Size = New System.Drawing.Size(65, 13)
         Me.Label5.TabIndex = 7
         Me.Label5.Text = "How Much?"
         '
         'txtAmountA
         '
-        Me.txtAmountA.Location = New System.Drawing.Point(9, 84)
+        Me.txtAmountA.Location = New System.Drawing.Point(7, 68)
+        Me.txtAmountA.Margin = New System.Windows.Forms.Padding(2)
         Me.txtAmountA.Name = "txtAmountA"
-        Me.txtAmountA.Size = New System.Drawing.Size(121, 22)
+        Me.txtAmountA.Size = New System.Drawing.Size(92, 20)
         Me.txtAmountA.TabIndex = 6
         '
         'cmbUnitsB
         '
         Me.cmbUnitsB.FormattingEnabled = True
         Me.cmbUnitsB.Items.AddRange(New Object() {"Grams", "Moles", "Liters"})
-        Me.cmbUnitsB.Location = New System.Drawing.Point(230, 53)
+        Me.cmbUnitsB.Location = New System.Drawing.Point(172, 43)
+        Me.cmbUnitsB.Margin = New System.Windows.Forms.Padding(2)
         Me.cmbUnitsB.Name = "cmbUnitsB"
-        Me.cmbUnitsB.Size = New System.Drawing.Size(121, 24)
+        Me.cmbUnitsB.Size = New System.Drawing.Size(92, 21)
         Me.cmbUnitsB.TabIndex = 5
         '
         'cmbUnitsA
         '
         Me.cmbUnitsA.FormattingEnabled = True
         Me.cmbUnitsA.Items.AddRange(New Object() {"Grams", "Moles", "Liters"})
-        Me.cmbUnitsA.Location = New System.Drawing.Point(9, 53)
+        Me.cmbUnitsA.Location = New System.Drawing.Point(7, 43)
+        Me.cmbUnitsA.Margin = New System.Windows.Forms.Padding(2)
         Me.cmbUnitsA.Name = "cmbUnitsA"
-        Me.cmbUnitsA.Size = New System.Drawing.Size(121, 24)
+        Me.cmbUnitsA.Size = New System.Drawing.Size(92, 21)
         Me.cmbUnitsA.TabIndex = 3
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(158, 56)
+        Me.Label4.Location = New System.Drawing.Point(118, 46)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(40, 17)
+        Me.Label4.Size = New System.Drawing.Size(31, 13)
         Me.Label4.TabIndex = 4
         Me.Label4.Text = "Units"
         '
         'cmbMolB
         '
         Me.cmbMolB.FormattingEnabled = True
-        Me.cmbMolB.Location = New System.Drawing.Point(230, 22)
+        Me.cmbMolB.Location = New System.Drawing.Point(172, 18)
+        Me.cmbMolB.Margin = New System.Windows.Forms.Padding(2)
         Me.cmbMolB.Name = "cmbMolB"
-        Me.cmbMolB.Size = New System.Drawing.Size(121, 24)
+        Me.cmbMolB.Size = New System.Drawing.Size(92, 21)
         Me.cmbMolB.TabIndex = 2
         '
         'cmbMolA
         '
         Me.cmbMolA.FormattingEnabled = True
-        Me.cmbMolA.Location = New System.Drawing.Point(9, 22)
+        Me.cmbMolA.Location = New System.Drawing.Point(7, 18)
+        Me.cmbMolA.Margin = New System.Windows.Forms.Padding(2)
         Me.cmbMolA.Name = "cmbMolA"
-        Me.cmbMolA.Size = New System.Drawing.Size(121, 24)
+        Me.cmbMolA.Size = New System.Drawing.Size(92, 21)
         Me.cmbMolA.TabIndex = 0
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(142, 25)
+        Me.Label3.Location = New System.Drawing.Point(106, 20)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(73, 17)
+        Me.Label3.Size = New System.Drawing.Size(56, 13)
         Me.Label3.TabIndex = 1
         Me.Label3.Text = "Convert to"
         '
@@ -191,9 +208,10 @@ Partial Class Main
         '
         Me.lblOutput.AutoSize = True
         Me.lblOutput.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblOutput.Location = New System.Drawing.Point(33, 286)
+        Me.lblOutput.Location = New System.Drawing.Point(25, 232)
+        Me.lblOutput.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lblOutput.Name = "lblOutput"
-        Me.lblOutput.Size = New System.Drawing.Size(317, 25)
+        Me.lblOutput.Size = New System.Drawing.Size(248, 20)
         Me.lblOutput.TabIndex = 2
         Me.lblOutput.Text = "(MolA) + (units) -> (MolB) + (Units)"
         Me.lblOutput.Visible = False
@@ -203,22 +221,25 @@ Partial Class Main
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.ForeColor = System.Drawing.Color.Blue
-        Me.Label6.Location = New System.Drawing.Point(8, 317)
+        Me.Label6.Location = New System.Drawing.Point(-1, 258)
+        Me.Label6.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(378, 29)
+        Me.Label6.Size = New System.Drawing.Size(297, 24)
         Me.Label6.TabIndex = 3
         Me.Label6.Text = "Troubleshooting And Bug Reports"
         '
         'Main
         '
         Me.AcceptButton = Me.btnEquOK
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(382, 355)
+        Me.ClientSize = New System.Drawing.Size(294, 292)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.lblOutput)
         Me.Controls.Add(Me.grpConversion)
         Me.Controls.Add(Me.grpAdd)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "Main"
         Me.Text = "Stoichiometry Solver"
         Me.grpAdd.ResumeLayout(False)
