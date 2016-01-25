@@ -10,7 +10,6 @@
         Dim strEquation As String = txtEquation.Text & "@"
         Dim chrChar As Char
         ReDim strMolecules(0)
-
         For intA As Integer = 1 To strEquation.Length()
             'Parser begins here
             chrChar = GetChar(strEquation, intA)
@@ -32,6 +31,9 @@
             If strMolecules(intA).Substring(strMolecules(intA).Length - 2, 1) <> "]" Then
                 'adds a [1] for help later
                 strMolecules(intA) = strMolecules(intA).Substring(0, strMolecules(intA).Length - 1) & "[1]"
+            ElseIf GetChar(strMolecules(intA), strMolecules(intA).Length) = "@" Then
+                'Removes the @ from the end
+                strMolecules(intA) = strMolecules(intA).Substring(0, strMolecules(intA).Length - 1)
             End If
             cmbMolA.Items.Add(strMolecules(intA))
         Next
@@ -156,6 +158,7 @@
         decFinalnumber = decLeftOfMole * decRightOfMole * (intMolCoef(1) / intMolCoef(0))
         lblOutput.Text = Decimal.Round(decFinalnumber, 5) & " " & cmbUnitsB.Text & " of " & cmbMolB.Text
     End Sub
+
     Function ConvToMass(strElement As String, intSubscript As Integer)
         Dim intElementNumber As Integer
         intElementNumber = strAtomsAbr.ToList.IndexOf(strElement)

@@ -7,3 +7,6 @@ C:\Users\Lorenzo\Documents\Visual Studio 2013\Projects\Stoichiometry\Stoichiomet
 C:\Users\Lorenzo\Documents\Visual Studio 2013\Projects\Stoichiometry\Stoichiometry\obj\Release\Stoichiometry.exe
 C:\Users\Lorenzo\Documents\Visual Studio 2013\Projects\Stoichiometry\Stoichiometry\obj\Release\Stoichiometry.xml
 C:\Users\Lorenzo\Documents\Visual Studio 2013\Projects\Stoichiometry\Stoichiometry\obj\Release\Stoichiometry.pdb
+J:\Stoichiometry\Stoichiometry\obj\Release\Stoichiometry.exe
+J:\Stoichiometry\Stoichiometry\obj\Release\Stoichiometry.xml
+J:\Stoichiometry\Stoichiometry\obj\Release\Stoichiometry.pdb
