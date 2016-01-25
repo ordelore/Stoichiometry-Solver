@@ -10,3 +10,9 @@ C:\Users\Lorenzo\Documents\Visual Studio 2013\Projects\Stoichiometry\Stoichiomet
 J:\Stoichiometry\Stoichiometry\obj\Release\Stoichiometry.exe
 J:\Stoichiometry\Stoichiometry\obj\Release\Stoichiometry.xml
 J:\Stoichiometry\Stoichiometry\obj\Release\Stoichiometry.pdb
+J:\Stoichiometry\Stoichiometry\bin\Release\Stoichiometry.exe
+J:\Stoichiometry\Stoichiometry\bin\Release\Stoichiometry.pdb
+J:\Stoichiometry\Stoichiometry\bin\Release\Stoichiometry.xml
+J:\Stoichiometry\Stoichiometry\obj\Release\Stoichiometry.Main.resources
+J:\Stoichiometry\Stoichiometry\obj\Release\Stoichiometry.Resources.resources
+J:\Stoichiometry\Stoichiometry\obj\Release\Stoichiometry.vbproj.GenerateResource.Cache
