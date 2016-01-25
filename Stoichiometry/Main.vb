@@ -101,6 +101,7 @@
         'Parse the element for its mass
         For intA As Integer = 1 To strMolA.Length
             If strLetters.Contains(GetChar(strMolA, intA)) Then
+                intMolSubscriptsA = 1
                 strElmntA(strElmntA.Length - 1) = StrTmpElmnt
                 StrTmpElmnt = ""
                 StrTmpElmnt = GetChar(strMolA, intA)
@@ -120,6 +121,7 @@
         'Element B
         For intA As Integer = 1 To strMolB.Length
             If strLetters.Contains(GetChar(strMolB, intA)) Then
+                intMolSubscriptsB = 1
                 strElmntA(strElmntA.Length - 1) = StrTmpElmnt
                 StrTmpElmnt = ""
                 StrTmpElmnt = GetChar(strMolB, intA)
