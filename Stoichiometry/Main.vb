@@ -66,10 +66,10 @@
         strMolA = cmbMolA.Text
         strMolB = cmbMolB.Text
         'Find the coefficents of both molecules
-        intTmp = txtEquation.Text.IndexOf(strMolA)
+        intTmp = 1 + txtEquation.Text.IndexOf(strMolA)
         'error checking
-        If intTmp = -1 Then
-            intTmp = txtEquation.Text.IndexOf(strMolA.Substring(0, strMolA.Length - 3))
+        If intTmp = -1 Or intTmp = 0 Then
+            intTmp = 1 + txtEquation.Text.IndexOf(strMolA.Substring(0, strMolA.Length - 3))
         End If
         intTmp1 = intTmp
         If Not strNumbers.Contains(GetChar(txtEquation.Text, intTmp)) Then
@@ -82,8 +82,8 @@
         End If
         intTmp = txtEquation.Text.IndexOf(strMolB)
         'error checking
-        If intTmp = -1 Then
-            intTmp = txtEquation.Text.IndexOf(strMolB.Substring(0, strMolB.Length - 3))
+        If intTmp = -1 Or intTmp = 0 Then
+            intTmp = 1 + txtEquation.Text.IndexOf(strMolB.Substring(0, strMolB.Length - 3))
         End If
         intTmp1 = intTmp
         If Not strNumbers.Contains(GetChar(txtEquation.Text, intTmp)) Then
@@ -99,6 +99,7 @@
         intUnitMode(1) = cmbUnitsB.SelectedIndex()
         StrTmpElmnt = ""
         'Parse the element for its mass
+        'Molecule A
         For intA As Integer = 1 To strMolA.Length
             If strLetters.Contains(GetChar(strMolA, intA)) Then
                 intMolSubscriptsA = 1
@@ -122,7 +123,7 @@
         For intA As Integer = 1 To strMolB.Length
             If strLetters.Contains(GetChar(strMolB, intA)) Then
                 intMolSubscriptsB = 1
-                strElmntA(strElmntA.Length - 1) = StrTmpElmnt
+                strElmntB(strElmntB.Length - 1) = StrTmpElmnt
                 StrTmpElmnt = ""
                 StrTmpElmnt = GetChar(strMolB, intA)
             ElseIf strLetters.ToLower.Contains(GetChar(strMolB, intA)) Then

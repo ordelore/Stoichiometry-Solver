@@ -16,3 +16,12 @@ J:\Stoichiometry\Stoichiometry\bin\Release\Stoichiometry.xml
 J:\Stoichiometry\Stoichiometry\obj\Release\Stoichiometry.Main.resources
 J:\Stoichiometry\Stoichiometry\obj\Release\Stoichiometry.Resources.resources
 J:\Stoichiometry\Stoichiometry\obj\Release\Stoichiometry.vbproj.GenerateResource.Cache
+F:\Stoichiometry\Stoichiometry\obj\Release\Stoichiometry.exe
+F:\Stoichiometry\Stoichiometry\obj\Release\Stoichiometry.xml
+F:\Stoichiometry\Stoichiometry\obj\Release\Stoichiometry.pdb
+F:\Stoichiometry\Stoichiometry\obj\Release\Stoichiometry.Main.resources
+F:\Stoichiometry\Stoichiometry\obj\Release\Stoichiometry.Resources.resources
+F:\Stoichiometry\Stoichiometry\obj\Release\Stoichiometry.vbproj.GenerateResource.Cache
+F:\Stoichiometry\Stoichiometry\bin\Release\Stoichiometry.exe
+F:\Stoichiometry\Stoichiometry\bin\Release\Stoichiometry.pdb
+F:\Stoichiometry\Stoichiometry\bin\Release\Stoichiometry.xml
